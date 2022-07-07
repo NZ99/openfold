@@ -1,6 +1,7 @@
 import argparse
 import os
 import pickle
+from smart_open import open
 
 from alphafold.data import pipeline, templates
 

@@ -17,6 +17,8 @@ import torch
 import torch.nn as nn
 import numpy as np
 import unittest
+from smart_open import open
+
 from openfold.config import model_config
 from openfold.data import data_transforms
 from openfold.model.model import AlphaFold

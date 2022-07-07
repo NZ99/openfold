@@ -3,6 +3,7 @@ import logging
 import os
 from pathlib import Path
 import subprocess
+from smart_open import open
 
 from openfold.data.tools import hhsearch
 

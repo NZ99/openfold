@@ -22,6 +22,7 @@ import logging
 import os
 import re
 from typing import Any, Dict, Mapping, Optional, Sequence, Tuple
+from smart_open import open
 
 import numpy as np
 

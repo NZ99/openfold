@@ -7,6 +7,7 @@ import threading
 from multiprocessing import cpu_count
 from shutil import copyfile
 import tempfile
+from smart_open import open
 
 import openfold.data.mmcif_parsing as mmcif_parsing
 from openfold.data.data_pipeline import AlignmentRunner

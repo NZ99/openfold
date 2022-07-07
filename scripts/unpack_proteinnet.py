@@ -1,7 +1,7 @@
 import argparse
 import os
 from pathlib import Path
-
+from smart_open import open
 
 def _write_file(args, file_in_progress):
     file_id = file_in_progress[1]

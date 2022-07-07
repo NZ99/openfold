@@ -1,6 +1,7 @@
 import argparse
 import logging
 import os
+from smart_open import open
 
 from openfold.data import mmcif_parsing
 from openfold.np import protein, residue_constants

@@ -17,6 +17,7 @@ import os
 import datetime
 from multiprocessing import cpu_count
 from typing import Mapping, Optional, Sequence, Any
+from smart_open import open
 
 import numpy as np
 

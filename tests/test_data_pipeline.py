@@ -14,6 +14,7 @@
 
 import pickle
 import shutil
+from smart_open import open
 
 import torch
 import numpy as np

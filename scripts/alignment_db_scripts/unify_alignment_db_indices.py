@@ -1,7 +1,7 @@
 import argparse
 import json
 import os
-
+from smart_open import open
 
 """ Unifies databases created with create_alignment_db.py """
 

@@ -17,6 +17,7 @@
 import os
 import subprocess
 from typing import Sequence
+from smart_open import open
 
 from absl import logging
 

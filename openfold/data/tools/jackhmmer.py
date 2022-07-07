@@ -22,6 +22,7 @@ import os
 import subprocess
 from typing import Any, Callable, Mapping, Optional, Sequence
 from urllib import request
+from smart_open import open
 
 from openfold.data.tools import utils
 

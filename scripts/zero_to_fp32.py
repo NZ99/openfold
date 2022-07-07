@@ -13,6 +13,7 @@ import glob
 import math
 import os
 from collections import OrderedDict
+from smart_open import open
 
 # while this script doesn't use deepspeed to recover data, since the checkpoints are pickled with
 # DeepSpeed data structures it has to be available in the current python environment.

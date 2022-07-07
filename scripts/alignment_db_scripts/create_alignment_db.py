@@ -1,7 +1,7 @@
 import argparse
 import json
 import os
-
+from smart_open import open
 
 def main(args):
     db_path = os.path.join(args.output_db_path, f"{args.output_db_name}.db")

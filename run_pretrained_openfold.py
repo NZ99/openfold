@@ -20,6 +20,7 @@ import logging
 import numpy as np
 import os
 from copy import deepcopy
+from smart_open import open
 
 import pickle
 from pytorch_lightning.utilities.deepspeed import (

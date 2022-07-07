@@ -5,6 +5,7 @@ import logging
 import os
 import pickle
 from typing import Optional, Sequence, List, Any
+from smart_open import open
 
 import ml_collections as mlc
 import numpy as np
